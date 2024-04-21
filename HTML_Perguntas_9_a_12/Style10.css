@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono&display=swap');
+::-webkit-scrollbar{ width: 10px;}
+::-webkit-scrollbar-track{background: transparent ;}
+::-webkit-scrollbar-thumb{background: black; border-radius: 3px;}
+::-webkit-scrollbar-thumb:hover{background: #191919;}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Reddit Mono', monospace;
+    font-size: 2em;
+    text-align: center;
+    margin: 2rem 0 2rem 0; 
+    color: white;
+    font-style: oblique;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1080px;
+    margin: 0 auto;
+    grid-gap: 1rem; 
+}
+
+.card {
+    background-color: #2b2b2a;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+    font-family: 'Reddit Mono', monospace;
+    font-size: 1.5em;
+    color: wheat;
+    margin-bottom: 2px;
+}
+.star {
+    width: 20px;
+    align-self: center;
+}
+
+.card .user {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    align-self: center;
+}
+
+
+blockquote {
+    font-family: 'Reddit Mono', monospace;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+footer{
+  background-color: #191919;
+  padding: 10px;
+  position: static;
+  bottom: 0;
+  left: 0;
+  margin-top: 70px;
+}
+
+.botão-fim{
+  border-radius: 25px;
+  border: 1px solid #0000009d;
+  width: 38px;
+  height: 38px;
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: #00000080;
+  color: white;
+}
+
+  .botão-fim a {     
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.botão-fim:hover {
+  background: #8583839d;
+}
+
+.div-fim{
+  border: 0px ;
+  padding: 10px;
+  width: 30%;
+}
+
+.texto-fim{
+  font-style:normal;
+  color: white;
+  text-align: center;
+}
+
+.link-fim{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.baixo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* os dois */
+
+.titulo-h2{
+  font-style: oblique;
+  color: white;
+  text-align: center;
+}
+
+.lado-lado{
+  display: flex;
+  justify-content: space-between;
+}
